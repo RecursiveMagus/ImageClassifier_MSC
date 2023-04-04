@@ -12,7 +12,7 @@ Proves elementals. Fer les proves sense transformacions a les imatges, "tal qual
 
 Exactament el mateix que l'apartat anterior, però aplicant transformacions sobre les imatges.
 
-### 3. Fit-one-cycle
+### 3. LR manual
 
 Fer servir la funció ``fit_one_cycle``, explicar-la i comentar els resultats.
 
