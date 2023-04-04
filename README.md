@@ -6,7 +6,7 @@ Tot seguit s'especifiquen els apartats que cal que apareguin al Notebook, juntam
 
 ### 1. Baseline
 
-Proves elementals. Fer les proves sense transformacions a les imatges, "tal qual" venen al dataset. Provar amb resnets 18->152, donat que són les xarxes de transfer learning més modernes. Explicar en què consisteix la congelació de les capes, i mostrar una mica com varien els resultats a mesura que es congelen més o menys capes.
+Proves elementals. Fer les proves sense transformacions a les imatges, "tal qual" venen al dataset. Provar amb resnets 18->152, donat que són les xarxes de transfer learning més modernes.
 
 ### 2. Aplicar transformacions
 
