@@ -1,5 +1,9 @@
 # Projecte final de classificació d'Imatges amb Pytorch+fastai
-Repositori per la pràctica final de classificació d'imatges de l'assignatura de Adv. Machine Learning del MCD de la UdG.
+Repositori per la pràctica final de classificació d'imatges de l'assignatura de Adv. Machine Learning del MCD de la UdG, implementada per:
+
+- Isaac de Palau (u??????)
+- Joan Saló (u1953621)
+
 
 Tot seguit s'especifiquen els apartats que apareixen en aquest repositori, juntament amb alguns detalls adicionals:
 
