@@ -1,8 +1,7 @@
 # Projecte final de classificació d'Imatges amb Pytorch+fastai
 Repositori per la pràctica final de classificació d'imatges de l'assignatura de Adv. Machine Learning del MCD de la UdG.
 
-
-Tot seguit s'especifiquen els apartats que cal que apareguin al Notebook, juntament amb alguns detalls adicionals:
+Tot seguit s'especifiquen els apartats que apareixen en aquest repositori, juntament amb alguns detalls adicionals:
 
 ### 1. Baseline
 
@@ -16,9 +15,9 @@ Exactament el mateix que l'apartat anterior, però aplicant transformacions sobr
 
 Fer servir la funció ``fit_one_cycle``, explicar-la i comentar els resultats.
 
-### 4. Ajust d'hiperparàmetres
+### 4. Ajust d'hiperparàmetres amb GridSearchCV
 
-Ajustar manualment hiperparàmetres, i comentar com van variant els resultats. Com a mínim, s'hauria de provar:
+Utilitzar Grid Search per ajustar al màxim els hiperparàmetres, i comentar com van variant els resultats. Com a mínim, s'hauria de provar:
 
   * loss_function
   * optimizer
@@ -30,16 +29,15 @@ El millor model resnet que s'aconsegueixi en aquest apartat s'haurà de guardar.
 
 Provar altres arquitectures estranyes i/o antigues com ara una densenet o una alexnet.
 
+### 6. Prediccins sobre el conjunt de test
 
-Adicionalment, si queda prou temps, es pot afegir:
+Amb la millor xarxa obtinguda, classificar les imatges del conjunt de test i guardar .CSV
 
-### Extra 1. GridSearchCV
-Fer Grid Search CV per trobar els millors paràmeres.
-### Extra 2. Entrenar "a pelo"
+### Extra 1. Entrenar "a pelo"
 Crear la NN des de zero i entrenar-la. Comparar els resultats amb les xarxes preentrenades que hem estat fent servir.
-### Extra 3. Transformers
-Fer servir transformers com a classificadors.
-### Extra 4. Style transfer
+
+### Extra 2. Explicabilitat
+Experimentar amb CAM i GradCAM.
+
+### Extra 3. Style transfer
 Provar un exemple d'style transfer.
-### Extra 5. Reinf. Learning
-Provar l'exemple clàssic del CartPole amb Convolucionals.
