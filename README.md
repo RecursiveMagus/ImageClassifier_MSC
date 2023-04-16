@@ -1,7 +1,7 @@
 # Projecte final de classificació d'Imatges amb Pytorch+fastai
 Repositori per la pràctica final de classificació d'imatges de l'assignatura de Adv. Machine Learning del MCD de la UdG, implementada per:
 
-- Isaac de Palau (u??????)
+- Isaac de Palau (u1928988)
 - Joan Saló (u1953621)
 
 
