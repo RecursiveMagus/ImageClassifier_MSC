@@ -26,14 +26,12 @@ Utilitzar Grid Search per ajustar al màxim els hiperparàmetres, i comentar com
   * loss_function
   * optimizer
   * learning rate
-  
-El millor model resnet que s'aconsegueixi en aquest apartat s'haurà de guardar.  
-  
+    
 ### 5. Altres arquitectures
 
 Provar altres arquitectures estranyes i/o antigues com ara una densenet o una alexnet.
 
-### 6. Prediccins sobre el conjunt de test
+### 6. Prediccions sobre el conjunt de test
 
 Amb la millor xarxa obtinguda, classificar les imatges del conjunt de test i guardar .CSV
 
@@ -45,3 +43,6 @@ Experimentar amb CAM i GradCAM.
 
 ### Extra 3. Style transfer
 Provar un exemple d'style transfer.
+
+### Extra 4. Reinforcement Learning
+Crear un agent capaç de jugar al joc d'Atari Breakout. En comptes de codificar els estats com vectors, els hem intentat codificar amb captures de frames de la partida.
